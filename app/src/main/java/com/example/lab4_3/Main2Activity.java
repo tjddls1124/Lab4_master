@@ -64,6 +64,7 @@ public class Main2Activity extends AppCompatActivity {
                 double p_area = Double.parseDouble(e_area.getText().toString());
                 double m2_area = p_area * 3.305785 ;
                 text_area.setText(m2_area+"제곱미터");
+
             }
         });
 
